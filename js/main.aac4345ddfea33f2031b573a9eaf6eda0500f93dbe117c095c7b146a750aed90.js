@@ -1,0 +1,1 @@
+(()=>{document.addEventListener("DOMContentLoaded",function(){console.log("DOMContentLoaded");let t=document.getElementById("light-button");console.log(t),t&&(t.style.display="block",t.addEventListener("click",function(e){e.preventDefault(),document.body.classList.toggle("light"),document.body.classList.toggle("dark")}))});})();
